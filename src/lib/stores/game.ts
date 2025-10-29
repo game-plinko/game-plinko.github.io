@@ -16,9 +16,9 @@ export const betAmount = writable<number>(1);
 
 export const betAmountOfExistingBalls = writable<BetAmountOfExistingBalls>({});
 
-export const rowCount = writable<RowCount>(16);
+export const rowCount = writable<RowCount>(14);
 
-export const riskLevel = writable<RiskLevel>(RiskLevel.MEDIUM);
+export const riskLevel = writable<RiskLevel>(RiskLevel.LOW);
 
 export const winRecords = writable<WinRecord[]>([]);
 
@@ -37,7 +37,7 @@ export const totalProfitHistory = writable<number[]>([0]);
  * on every balance change. This prevents unnecessary writes to local storage, which can
  * be slow on low-end devices.
  */
-export const balance = writable<number>(200);
+export const balance = writable<number>(20000);
 
 /**
  * RGB colors for every bin. The length of the array is the number of bins.
