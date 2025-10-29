@@ -51,12 +51,12 @@
             rel="noreferrer"
             class=" text-cyan-600 transition hover:text-cyan-500"
           >
-            Plinko Game Online
+            Plinko Game - Inspired by Stake.us
           </a>
-          © 2024
+          © 2024 - Edited by Edwin S.
         </p>
         <a
-          href="https://github.com/plinko-game-online/plinko-game-online.github.io"
+          href="https://github.com/game-plinko/game-plinko.github.io"
           target="_blank"
           rel="noreferrer"
           class="flex items-center gap-1 p-1 text-sm text-slate-500 transition hover:text-cyan-500"
