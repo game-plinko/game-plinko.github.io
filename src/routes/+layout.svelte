@@ -4,7 +4,7 @@
 </script>
 
 <svelte:head>
-  <title>Free Plinko Game Online - Play & Win Instant Rewards</title>
+  <title>Free Plinko Game - @skull_gtag</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
   <link rel="canonical" href="https://plinko-game-online.github.io/"/>
