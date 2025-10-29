@@ -22,7 +22,7 @@ export type RowCount = (typeof rowCountOptions)[number];
 /**
  * Interval (in milliseconds) for placing auto bets.
  */
-export const autoBetIntervalMs = 250;
+export const autoBetIntervalMs = 10;
 
 /**
  * For each row count, the background and shadow colors of each bin.
@@ -93,7 +93,7 @@ export const binPayouts: Record<RowCount, Record<RiskLevel, number[]>> = {
   16: {
     [RiskLevel.LOW]: [16, 9, 2, 1.4, 1.4, 1.2, 1.1, 1, 0.5, 1, 1.1, 1.2, 1.4, 1.4, 2, 9, 16],
     [RiskLevel.MEDIUM]: [110, 41, 10, 5, 3, 1.5, 1, 0.5, 0.3, 0.5, 1, 1.5, 3, 5, 10, 41, 110],
-    [RiskLevel.HIGH]: [1000, 130, 26, 9, 4, 2, 0.2, 0.2, 0.2, 0.2, 0.2, 2, 4, 9, 26, 130, 1000],
+    [RiskLevel.HIGH]: [100000, 13000, 2600, 900, 400, 200, 20, 20, 20, 20, 20, 200, 400, 900, 2600, 13000, 100000],
   },
 };
 
