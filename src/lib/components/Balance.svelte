@@ -8,7 +8,7 @@
     maximumFractionDigits: 2,
   });
 
-  const addMoneyAmounts = [10000, 500000, 100000000];
+  const addMoneyAmounts = [1000, 50000, 1000000];
 </script>
 
 <div class="flex overflow-hidden rounded-md">
